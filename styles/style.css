@@ -15,10 +15,11 @@
 }
 
 /* Shared Classes are here */
-.primary-color{
+.primary-color {
     background: #469165;
 }
-.primary-text{
+
+.primary-text {
     color: #469165;
 }
 
@@ -29,8 +30,9 @@ nav {
     align-items: center;
 
 }
-.header{
-    padding: 18px 0px;
+
+.header {
+    padding: 10px 0px;
 }
 
 
@@ -54,80 +56,96 @@ li a {
     color: black;
     opacity: 97%;
     font-size: 20px;
+    transition: .3s all ;
 }
-.nav-btn{
+nav ul,
+li a:hover{
+    color: #469165;
+    scale: 105%;
+ 
+}
+
+.nav-btn {
     padding: 13px 17px;
     border-radius: 7px;
     background: #469165;
 
-    
+
     border: 2px solid #469165;
-    color:white;
+    color: white;
     transition: 0.5s all ease-in-out;
     font-size: 18px;
     font-weight: 600;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background: transparent;
-    color:#469165;
+    color: #469165;
 }
+
 /* Navbar code End */
 
 /* banner code start */
-#banner{
+#banner {
     background-image: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:100vh;
+    height: 720px;
     width: 100%;
 }
 
-.hero{
+.hero {
     padding: 140px 0px 170px;
     text-align: center;
 }
+
 .banner-btn button {
     gap: 5px;
     display: flex;
     align-items: center;
     margin: 0 auto;
     justify-content: center;
-    padding:10px 15px ;
+    padding: 10px 15px;
     border-radius: 20px;
     transition: .4s all ease;
     border: 2px solid white;
 }
+
 .banner-btn button:hover {
-   background: transparent;
-color: white;    
+    background: transparent;
+    color: white;
     border: 2px solid #469165;
 
 }
 
-#banner .texts h1{
+#banner .texts h1 {
     color: white;
     font-size: 70px;
     padding: 10px 0;
 }
-.texts h1 span{
+
+.texts h1 span {
     color: #469165;
 }
-.texts p{
-    color:white;
+
+.texts p {
+    color: white;
     width: 50%;
     margin: 0 auto;
 
 }
-.hero-btn{
-    display: flex ;
+
+.hero-btn {
+    display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
     padding: 34px 0px;
 }
+
 .hero-btn button {
-    padding: 10px 20px ;
+    padding: 10px 20px;
     border-radius: 10px;
     background: #469165;
     transition: .4s ease;
@@ -135,13 +153,14 @@ color: white;
     display: flex;
     gap: 10px;
     align-items: center;
-     border: 2px solid #469165;
-    
+    border: 2px solid #469165;
+
 }
-.hero-btn button:hover{
-      background: transparent;
-color: white;    
-   
+
+.hero-btn button:hover {
+    background: transparent;
+    color: white;
+
 }
 
 /* banner code end */
@@ -149,41 +168,46 @@ color: white;
 
 /* Cards section start */
 
-#cardSection h2{
-    text-align: center ;
+#cardSection h2 {
+    text-align: center;
     padding: 10px 0px;
     margin-top: 20px;
     font-size: 48px;
 }
-#cardSection p{
-    text-align: center ;
+
+#cardSection p {
+    text-align: center;
     padding: 10px 0px;
-    color: gray ;
+    color: gray;
     padding-bottom: 60px;
     font-size: 14px;
 }
-.cards{
+
+.cards {
     display: flex;
     gap: 20px;
     flex-wrap: nowrap;
     padding-bottom: 50px;
 }
-.card{
-    
-   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
-    padding:50px 20px  ;
+
+.card {
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 50px 20px;
     width: 320px;
     height: 300px;
     text-align: center;
-        transition: .4s all ease-out;
+    transition: .4s all ease-out;
 
     border-radius: 20px;
-    
+
 }
-.card:hover{
+
+.card:hover {
     scale: 105%;
 }
-.card .icon{
+
+.card .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,14 +217,16 @@ color: white;
     height: 60px;
     margin: 10px auto;
 
-   
+
 }
-.card h3{
+
+.card h3 {
     font-size: 24px;
     padding: 17px 0px;
-    
+
 }
-.card p{
+
+.card p {
     font-size: 18px;
     color: gray;
 
@@ -212,57 +238,66 @@ color: white;
 
 
 /* Brain section start */
-#secondBrainSection{
+#secondBrainSection {
     padding: 50px 0px;
     display: flex;
     gap: 60px;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-#secondBrainSection .left{
-width: 40%;
-transition: all .3s;
-  
-    
+
+#secondBrainSection .left {
+    width: 40%;
+    transition: all .3s;
+
+
 }
-#secondBrainSection .left:hover{
- box-shadow: 20px 20px 100px 30px rgba(0, 0, 0, 0.1);
-  
-    
+
+#secondBrainSection .left:hover {
+    box-shadow: 20px 20px 100px 30px rgba(0, 0, 0, 0.1);
+
+
 }
-#secondBrainSection .right{
-width: 40%;
-    
+
+#secondBrainSection .right {
+    width: 40%;
+
 }
-#secondBrainSection .right h6{
-color: #469165;
-font-size: 18px;
-    
+
+#secondBrainSection .right h6 {
+    color: #469165;
+    font-size: 18px;
+
 }
-#secondBrainSection .right h2{
-font-size: 48px;
-padding: 18px 0px;
-    
+
+#secondBrainSection .right h2 {
+    font-size: 48px;
+    padding: 18px 0px;
+
 }
-#secondBrainSection .right p{
-font-size: 14px;
-color: gray;
-padding-bottom: 20px;
-width: 70%;
-    
+
+#secondBrainSection .right p {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 20px;
+    width: 70%;
+
 }
- .right .service{
-   display: flex;
-   align-items: center;
-   gap: 5px;
-   padding: 5px 0px;
+
+.right .service {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0px;
 }
- .right .service h4{
-color: #001931;
-font-weight: 600;
+
+.right .service h4 {
+    color: #001931;
+    font-weight: 600;
 }
-#brainSection{
+
+#brainSection {
     padding: 50px 0px;
 }
 
@@ -271,32 +306,94 @@ font-weight: 600;
 /* Brain section end */
 
 /* Testimonial Challenge secton start */
-#testimonial{
-    height: 370px;
-    margin: 50px auto;
+#testimonial {
+    height: 360px;
+    margin: 70px auto;
     background: #F7F6F2;
     border-radius: 20px;
     padding: 80px 40px;
     text-align: center;
 }
-#testimonial h2{
+
+#testimonial h2 {
     font-size: 40px;
-    
+
 }
-#testimonial p{
+
+#testimonial p {
     font-size: 14px;
     color: gray;
     padding: 20px 0px;
-    width: 50%; 
+    width: 50%;
     margin: 0 auto;
 
 }
-#testimonial button{
+
+#testimonial button {
     display: flex;
     margin: 0 auto;
-    gap: 5px;
-    
-  
+    gap: 9px;
+
+
 
 }
+
 /* Testimonial Challenge secton End */
+
+
+/* Fotter part start */
+#footer {
+    background: #001931;
+    margin-top: 40px;
+    padding: 70px 0px 30px 0px;
+
+}
+
+.socialIcons h4 {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+
+}
+
+.icons i:hover {
+    scale: 110%;
+
+}
+
+.socialIcons .icons i {
+    background: white;
+    transition: .3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#footer p {
+    text-align: center;
+    padding: 18px 0px;
+    color: rgb(218, 205, 205);
+}
+
+.footerRow {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.hr {
+    background-color: #1d2f41;
+    height: 2px;
+    border: none;
+}
+
+/* Fotter part end */
