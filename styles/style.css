@@ -58,6 +58,7 @@ li a {
 .nav-btn{
     padding: 13px 17px;
     border-radius: 7px;
+    background: #469165;
 
     
     border: 2px solid #469165;
@@ -68,7 +69,7 @@ li a {
 }
 .nav-btn:hover{
     background: transparent;
-    color: rgb(90, 89, 89);
+    color:#469165;
 }
 /* Navbar code End */
 
@@ -208,3 +209,94 @@ color: white;
 
 
 /* Cards section end */
+
+
+/* Brain section start */
+#secondBrainSection{
+    padding: 50px 0px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#secondBrainSection .left{
+width: 40%;
+transition: all .3s;
+  
+    
+}
+#secondBrainSection .left:hover{
+ box-shadow: 20px 20px 100px 30px rgba(0, 0, 0, 0.1);
+  
+    
+}
+#secondBrainSection .right{
+width: 40%;
+    
+}
+#secondBrainSection .right h6{
+color: #469165;
+font-size: 18px;
+    
+}
+#secondBrainSection .right h2{
+font-size: 48px;
+padding: 18px 0px;
+    
+}
+#secondBrainSection .right p{
+font-size: 14px;
+color: gray;
+padding-bottom: 20px;
+width: 70%;
+    
+}
+ .right .service{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 5px 0px;
+}
+ .right .service h4{
+color: #001931;
+font-weight: 600;
+}
+#brainSection{
+    padding: 50px 0px;
+}
+
+
+
+/* Brain section end */
+
+/* Testimonial Challenge secton start */
+#testimonial{
+    height: 370px;
+    margin: 50px auto;
+    background: #F7F6F2;
+    border-radius: 20px;
+    padding: 80px 40px;
+    text-align: center;
+}
+#testimonial h2{
+    font-size: 40px;
+    
+}
+#testimonial p{
+    font-size: 14px;
+    color: gray;
+    padding: 20px 0px;
+    width: 50%; 
+    margin: 0 auto;
+
+}
+#testimonial button{
+    display: flex;
+    margin: 0 auto;
+    gap: 5px;
+    
+  
+
+}
+/* Testimonial Challenge secton End */
