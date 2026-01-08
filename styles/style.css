@@ -1,0 +1,143 @@
+/* Fixing all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* container universal code for all section */
+.wrapper {
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+/* Shared Classes are here */
+.primary-color{
+    background: #469165;
+}
+.primary-text{
+    color: #469165;
+}
+
+/* Navbar code start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+nav ul,
+li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+nav ul,
+li a {
+    text-decoration: none;
+    color: black;
+    opacity: 97%;
+    font-size: 20px;
+}
+.nav-btn{
+    padding: 13px 17px;
+    border-radius: 7px;
+
+    
+    border: 2px solid #469165;
+    color:white;
+    transition: 0.5s all ease-in-out;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-btn:hover{
+    background: transparent;
+    color: rgb(90, 89, 89);
+}
+/* Navbar code End */
+
+/* banner code start */
+#banner{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+
+.hero{
+    padding: 140px 0px 170px;
+    text-align: center;
+}
+.banner-btn button {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding:10px 15px ;
+    border-radius: 20px;
+    transition: .4s all ease;
+    border: 2px solid white;
+}
+.banner-btn button:hover {
+   background: transparent;
+color: white;    
+    border: 2px solid #469165;
+
+}
+
+#banner .texts h1{
+    color: white;
+    font-size: 70px;
+    padding: 10px 0;
+}
+.texts h1 span{
+    color: #469165;
+}
+.texts p{
+    color:white;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.hero-btn{
+    display: flex ;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 0px;
+}
+.hero-btn button {
+    padding: 10px 20px ;
+    border-radius: 10px;
+    background: #469165;
+    transition: .4s ease;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     border: 2px solid #469165;
+    
+}
+.hero-btn button:hover{
+      background: transparent;
+color: white;    
+   
+}
+
+
+/* banner code end */
